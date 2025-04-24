@@ -1,6 +1,6 @@
 # Task Tracker CLI
 
-A lightweight command-line application for managing your tasks (to-do, in-progress, done) backed by a JSON file.
+A lightweight command-line application for managing your tasks (to-do, in-progress, done) backed by a JSON file. Part of [Project Ideas](https://roadmap.sh/projects/task-tracker)
 
 ### Prerequisites
 
