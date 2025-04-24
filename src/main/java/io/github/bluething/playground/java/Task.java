@@ -73,6 +73,14 @@ class Task {
         return new Task(id, desc, status, createdAt, updatedAt);
     }
 
+    @Override
+    public String toString() {
+        return String.format(
+                "[%d] %s (Status: %s, created: %s, updated: %s)",
+                id, description, status, createdAt, updatedAt
+        );
+    }
+
     public void setStatus(Status status) {
         this.status = status;
         this.updatedAt = Instant.now();
